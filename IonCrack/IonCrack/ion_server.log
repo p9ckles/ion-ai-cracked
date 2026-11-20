@@ -1,0 +1,180 @@
+[06:47:06] + hosts file already patched
+[06:47:06] * Generating self-signed TLS cert for socket.keyauth.shop ...
+[06:47:06] - cryptography not installed.  Run:  pip install cryptography
+[06:55:42] + hosts file already patched
+[06:55:42] * Generating self-signed TLS cert for socket.keyauth.shop ...
+[06:55:44] + Certificate written to fake_cert.pem
+[06:55:44] + Listening on 127.0.0.1:3389 (SSL)
+[06:55:44] + Intercepting socket.keyauth.shop -- ANY key will be accepted
+[06:55:44] * proof template = '{ch}|{until}'  until = 'Lifetime'
+[06:55:44] * Start ION_Pro.exe, open the web UI and enter any license key ...
+[09:31:50] - Run as Administrator to patch the hosts file!
+[09:32:01] + hosts file patched: socket.keyauth.shop -> 127.0.0.1
+[09:32:01] + Listening on 127.0.0.1:3389 (SSL)
+[09:32:01] + Intercepting socket.keyauth.shop -- ANY key will be accepted
+[09:32:01] * proof template = '{ch}|{until}'  until = 'Lifetime'
+[09:32:01] * Start ION_Pro.exe, open the web UI and enter any license key ...
+[09:32:16] * ION_Pro connected from 127.0.0.1:52573
+[09:32:16] > SEND  CHALLENGE: CHALLENGE|ffe3fc39|c6033a34d1329b95
+[09:32:16] > RECV  [22fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7RESPONSE|ffe3fc39|8c2b214feb25a846cec143640f9e7772fad8547bc634d82d19909cd3d812cc34]
+[09:32:16] + key = '4wg'
+[09:32:16] * challenge id=ffe3fc39 msg=c6033a34d1329b95
+[09:32:16] * client proof = 8c2b214feb25a846cec143640f9e7772fad8547bc634d82d19909cd3d812cc34   [OK]
+[09:32:16] * proof message = 'c6033a34d1329b95|Lifetime'
+[09:32:16] * until = 'Lifetime'
+[09:32:16] > SEND  ACCESS: ACCESS|Lifetime|3fb9b9e65eb40659b894b81d053a5953aaa001941c9457e03b1fac75a9ad925a
+[09:32:16] > SEND  VALID: VALID|ok
+[09:32:16] ! Client 127.0.0.1:52573 error: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host')
+[09:32:16] * Client 127.0.0.1:52573 disconnected
+[09:32:16] * ION_Pro connected from 127.0.0.1:52576
+[09:32:16] > SEND  CHALLENGE: CHALLENGE|e8b0a83e|05fbbd54dbf1e707
+[09:32:16] > RECV  [32fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[09:32:16] ! No RESPONSE from client
+[09:32:16] * Client 127.0.0.1:52576 disconnected
+[09:32:16] * ION_Pro connected from 127.0.0.1:52580
+[09:32:16] > SEND  CHALLENGE: CHALLENGE|798361c7|4cc7d1c623a43217
+[09:32:16] * ION_Pro connected from 127.0.0.1:52581
+[09:32:16] > SEND  CHALLENGE: CHALLENGE|232bf31a|61b7fb8f30e946b1
+[09:32:16] > RECV  [42fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[09:32:16] ! No RESPONSE from client
+[09:32:16] ! No RESPONSE from client
+sconnected
+[09:32:16] * Client 127.0.0.1:52580 disconnected
+[09:37:17] * ION_Pro connected from 127.0.0.1:54636
+[09:37:17] > SEND  CHALLENGE: CHALLENGE|8bfd86f9|154f6d815f4fe647
+[09:37:17] > RECV  [32fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[09:37:17] ! No RESPONSE from client
+[09:37:17] * Client 127.0.0.1:54636 disconnected
+[09:40:16] * ION_Pro connected from 127.0.0.1:55514
+[09:40:16] > SEND  CHALLENGE: CHALLENGE|0c7ba723|3ac09a67aa6d940d
+[09:40:16] > RECV  [22fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7RESPONSE|0c7ba723|125d08f9706bcbfa31bf845cf9a19eacfdb11d5e2d828b4407a5accc5411c147]
+[09:40:16] + key = '4wg'
+[09:40:16] * challenge id=0c7ba723 msg=3ac09a67aa6d940d
+[09:40:16] * client proof = 125d08f9706bcbfa31bf845cf9a19eacfdb11d5e2d828b4407a5accc5411c147   [OK]
+[09:40:16] * proof message = '3ac09a67aa6d940d|Lifetime'
+[09:40:16] * until = 'Lifetime'
+[09:40:16] > SEND  ACCESS: ACCESS|Lifetime|30618e11c614ff7d8ac9bdb6751664a8dcd11d8a271d8fd4c9f4b969b7f6a395
+[09:40:16] > SEND  VALID: VALID|ok
+[09:40:16] ! Client 127.0.0.1:55514 error: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine')
+[09:40:16] * Client 127.0.0.1:55514 disconnected
+[09:40:16] * ION_Pro connected from 127.0.0.1:55516
+[09:40:16] > SEND  CHALLENGE: CHALLENGE|9d0609aa|763a1fdaac87c790
+[09:40:16] > RECV  [32fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[09:40:16] ! No RESPONSE from client
+[09:40:16] * Client 127.0.0.1:55516 disconnected
+[09:40:16] * ION_Pro connected from 127.0.0.1:55519
+[09:40:16] > SEND  CHALLENGE: CHALLENGE|0a974f81|9bbc0d7ea8c6f0c6
+[09:40:16] * ION_Pro connected from 127.0.0.1:55523
+[09:40:16] > SEND  CHALLENGE: CHALLENGE|a0525195|b10c253986534cd3
+[09:40:17] > RECV  [42fa42fcfa77cb35bdc458c192ff0b397|4wg]
+[09:40:17] > RECV  [42fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[09:40:17] ! No RESPONSE from client
+[09:40:17] ! No RESPONSE from client
+[09:40:17] * Client 127.0.0.1:55523 disconnected
+[09:40:17] * Client 127.0.0.1:55519 disconnected
+[09:45:17] * ION_Pro connected from 127.0.0.1:58735
+[09:45:17] > SEND  CHALLENGE: CHALLENGE|2d69e01d|c91ac55463562baa
+[09:45:17] > RECV  [32fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[09:45:17] ! No RESPONSE from client
+[09:45:17] * Client 127.0.0.1:58735 disconnected
+[09:46:40] + hosts file already patched
+[09:46:40] + Listening on 127.0.0.1:3389 (SSL)
+[09:46:40] + Intercepting socket.keyauth.shop -- ANY key will be accepted
+[09:46:40] * proof template = '{ch}|{until}'  until = 'Lifetime'
+[09:46:40] * Start ION_Pro.exe, open the web UI and enter any license key ...
+[09:46:45] * ION_Pro connected from 127.0.0.1:59794
+[09:46:45] > SEND  CHALLENGE: CHALLENGE|fbe9a241|2049585960206bb8
+[09:46:46] > RECV  [22fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7RESPONSE|fbe9a241|8e44625599e417c5eedffe0781a404e10a7c9a97176826efb4435ea405bbf95f]
+[09:46:46] + key = '4wg'
+[09:46:46] * challenge id=fbe9a241 msg=2049585960206bb8
+[09:46:46] * client proof = 8e44625599e417c5eedffe0781a404e10a7c9a97176826efb4435ea405bbf95f   [OK]
+[09:46:46] * proof message = '2049585960206bb8|Lifetime'
+[09:46:46] * until = 'Lifetime'
+[09:46:46] > SEND  ACCESS: ACCESS|Lifetime|8ca647cc6cb1abbb05846ede54bfb9a86b17fafb819d32e31e50bf72434644f1
+[09:46:46] > SEND  VALID: VALID|ok
+[09:46:46] ! Client 127.0.0.1:59794 error: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host')
+[09:46:46] * Client 127.0.0.1:59794 disconnected
+[09:46:46] * ION_Pro connected from 127.0.0.1:59795
+[09:46:46] > SEND  CHALLENGE: CHALLENGE|c768c5f0|7b956dc08efd292c
+[09:46:46] > RECV  [32fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[09:46:46] ! No RESPONSE from client
+[09:46:46] * Client 127.0.0.1:59795 disconnected
+[09:46:46] * ION_Pro connected from 127.0.0.1:59800
+[09:46:46] > SEND  CHALLENGE: CHALLENGE|bcbf4436|9d5e7ca47892fbc2
+[09:46:46] * ION_Pro connected from 127.0.0.1:59803
+[09:46:46] > SEND  CHALLENGE: CHALLENGE|10182e8e|fa842de288bb8acf
+[09:46:46] > RECV  [42fa42fcfa77cb35bdc458c192ff0b397|4wg]
+[09:46:46] > RECV  [42fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[09:46:46] ! No RESPONSE from client
+[09:46:46] ! No RESPONSE from client
+[09:46:46] * Client 127.0.0.1:59800 disconnected
+[09:46:46] * Client 127.0.0.1:59803 disconnected
+[09:51:46] * ION_Pro connected from 127.0.0.1:61705
+[09:51:46] > SEND  CHALLENGE: CHALLENGE|8a633891|5f911e903a503349
+[09:51:46] > RECV  [32fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[09:51:46] ! No RESPONSE from client
+[09:51:46] * Client 127.0.0.1:61705 disconnected
+[10:33:32] + hosts file already patched
+[10:33:32] + Listening on 127.0.0.1:3389 (SSL)
+[10:33:32] + Intercepting socket.keyauth.shop -- ANY key will be accepted
+[10:33:32] * proof template = '{ch}|{until}'  until = 'Lifetime'
+[10:33:32] * Start ION_Pro.exe, open the web UI and enter any license key ...
+[10:33:37] * ION_Pro connected from 127.0.0.1:54068
+[10:33:37] > SEND  CHALLENGE: CHALLENGE|9714e1e0|860aeb303bb50311
+[10:33:38] > RECV  [22fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7RESPONSE|9714e1e0|78a0f4294dc5376e898e2269b524ed1ccea15d577cf849da988acf1d5e651ff0]
+[10:33:38] + key = '4wg'
+[10:33:38] * challenge id=9714e1e0 msg=860aeb303bb50311
+[10:33:38] * client proof = 78a0f4294dc5376e898e2269b524ed1ccea15d577cf849da988acf1d5e651ff0   [OK]
+[10:33:38] * proof message = '860aeb303bb50311|Lifetime'
+[10:33:38] * until = 'Lifetime'
+[10:33:38] > SEND  ACCESS: ACCESS|Lifetime|c8c48e94fdda7c243c55154d28a2f182bf0f587b17827d31c9873e8174484c3d
+[10:33:38] > SEND  VALID: VALID|ok
+[10:33:38] ! Client 127.0.0.1:54068 error: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine')
+[10:33:38] * Client 127.0.0.1:54068 disconnected
+[10:33:38] * ION_Pro connected from 127.0.0.1:54072
+[10:33:38] > SEND  CHALLENGE: CHALLENGE|004049cc|6d8f57c1af10519b
+[10:33:38] > RECV  [32fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[10:33:38] ! No RESPONSE from client
+[10:33:38] * Client 127.0.0.1:54072 disconnected
+[10:33:38] * ION_Pro connected from 127.0.0.1:54075
+[10:33:38] > SEND  CHALLENGE: CHALLENGE|99508bf6|bde6bbce0f1b0e7a
+[10:33:38] * ION_Pro connected from 127.0.0.1:54077
+[10:33:38] > SEND  CHALLENGE: CHALLENGE|f9421b6d|d6fb54d8202b96e9
+[10:33:38] > RECV  [42fa42fcfa77cb35bdc458c192ff0b397|4wg]
+14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[10:33:38] ! No RESPONSE from client
+[10:33:38] * Client 127.0.0.1:54075 disconnected
+[10:33:38] ! No RESPONSE from client
+[10:33:38] * Client 127.0.0.1:54077 disconnected
+[17:30:45] + hosts file already patched
+[17:30:45] + Listening on 127.0.0.1:3389 (SSL)
+[17:30:45] + Intercepting socket.keyauth.shop -- ANY key will be accepted
+[17:30:45] * proof template = '{ch}|{until}'  until = 'Lifetime'
+[17:30:45] * Start ION_Pro.exe, open the web UI and enter any license key ...
+[17:30:46] * ION_Pro connected from 127.0.0.1:58208
+[17:30:46] > SEND  CHALLENGE: CHALLENGE|d1a91771|08b32f3c77e43c11
+[17:30:47] > RECV  [22fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7RESPONSE|d1a91771|714a85c5caa05f8ce093dd4da48afd2558728db1e1ab732b3d1e4a156cbc4e34]
+[17:30:47] + key = '4wg'
+[17:30:47] * challenge id=d1a91771 msg=08b32f3c77e43c11
+[17:30:47] * client proof = 714a85c5caa05f8ce093dd4da48afd2558728db1e1ab732b3d1e4a156cbc4e34   [OK]
+[17:30:47] * proof message = '08b32f3c77e43c11|Lifetime'
+[17:30:47] * until = 'Lifetime'
+[17:30:47] > SEND  ACCESS: ACCESS|Lifetime|ed722d4e1e32c47ca23e3360f067b23005963394a28167a8e9cdd05eb1578511
+[17:30:47] > SEND  VALID: VALID|ok
+[17:30:47] ! Client 127.0.0.1:58208 error: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine')
+[17:30:47] * Client 127.0.0.1:58208 disconnected
+[17:30:47] * ION_Pro connected from 127.0.0.1:58214
+[17:30:47] > SEND  CHALLENGE: CHALLENGE|79bb8fc1|1bcda9c847402672
+[17:30:47] > RECV  [32fa42fcfa77cb35bdc458c192ff0b397|4wg|9c14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[17:30:47] ! No RESPONSE from client
+[17:30:47] * Client 127.0.0.1:58214 disconnected
+[17:30:47] * ION_Pro connected from 127.0.0.1:58215
+[17:30:47] > SEND  CHALLENGE: CHALLENGE|6d334335|a322bde942808f9e
+[17:30:47] * ION_Pro connected from 127.0.0.1:58217
+[17:30:47] > SEND  CHALLENGE: CHALLENGE|4201b14e|26ae5a652f919cc4
+[17:30:47] > RECV  [42fa42fcfa77cb35bdc458c192ff0b397|4wg]
+14bccc77303c6c4979528618a0453846b623b5efad6a5a5191058912829fd7]
+[17:30:47] ! No RESPONSE from client
+[17:30:47] ! No RESPONSE from client
+[17:30:47] * Client 127.0.0.1:58215 disconnected
+[17:30:47] * Client 127.0.0.1:58217 disconnected
